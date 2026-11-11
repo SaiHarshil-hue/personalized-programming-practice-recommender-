@@ -1,0 +1,1128 @@
+[
+  {
+    "id": "Q01",
+    "title": "Sum of Natural Numbers",
+    "topic": "Loops",
+    "difficulty": "Easy",
+    "statement": "Given a positive integer n, print the sum 1 + 2 + ... + n.",
+    "requiredSkillVector": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n",
+    "sampleOutput": "15\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 5,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "1\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "5\n",
+        "expectedOutput": "15\n"
+      },
+      {
+        "input": "10\n",
+        "expectedOutput": "55\n"
+      }
+    ]
+  },
+  {
+    "id": "Q02",
+    "title": "Multiplication Table",
+    "topic": "Loops",
+    "difficulty": "Medium",
+    "statement": "Given an integer n, print its multiplication table from 1 to 10, one result per line in the form n x i = product.",
+    "requiredSkillVector": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "3\n",
+    "sampleOutput": "3 x 1 = 3\n3 x 2 = 6\n3 x 3 = 9\n3 x 4 = 12\n3 x 5 = 15\n3 x 6 = 18\n3 x 7 = 21\n3 x 8 = 24\n3 x 9 = 27\n3 x 10 = 30\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "2\n",
+        "expectedOutput": "2 x 1 = 2\n2 x 2 = 4\n2 x 3 = 6\n2 x 4 = 8\n2 x 5 = 10\n2 x 6 = 12\n2 x 7 = 14\n2 x 8 = 16\n2 x 9 = 18\n2 x 10 = 20\n"
+      },
+      {
+        "input": "5\n",
+        "expectedOutput": "5 x 1 = 5\n5 x 2 = 10\n5 x 3 = 15\n5 x 4 = 20\n5 x 5 = 25\n5 x 6 = 30\n5 x 7 = 35\n5 x 8 = 40\n5 x 9 = 45\n5 x 10 = 50\n"
+      }
+    ]
+  },
+  {
+    "id": "Q03",
+    "title": "Count Digits",
+    "topic": "Loops",
+    "difficulty": "Hard",
+    "statement": "Given a non-negative integer n, print the number of digits in its decimal representation.",
+    "requiredSkillVector": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5082\n",
+    "sampleOutput": "4\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "0\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "7\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "5082\n",
+        "expectedOutput": "4\n"
+      },
+      {
+        "input": "100000\n",
+        "expectedOutput": "6\n"
+      }
+    ]
+  },
+  {
+    "id": "Q04",
+    "title": "Reverse a Number",
+    "topic": "Loops",
+    "difficulty": "Easy",
+    "statement": "Given a non-negative integer n, print its digits in reverse order. Leading zeroes in the reversed result are not printed.",
+    "requiredSkillVector": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "1204\n",
+    "sampleOutput": "4021\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 5,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "123\n",
+        "expectedOutput": "321\n"
+      },
+      {
+        "input": "1200\n",
+        "expectedOutput": "21\n"
+      },
+      {
+        "input": "7\n",
+        "expectedOutput": "7\n"
+      }
+    ]
+  },
+  {
+    "id": "Q05",
+    "title": "Prime Number Check",
+    "topic": "Loops",
+    "difficulty": "Medium",
+    "statement": "Given an integer n, print YES if n is prime; otherwise print NO.",
+    "requiredSkillVector": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "17\n",
+    "sampleOutput": "YES\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "1\n",
+        "expectedOutput": "NO\n"
+      },
+      {
+        "input": "2\n",
+        "expectedOutput": "YES\n"
+      },
+      {
+        "input": "17\n",
+        "expectedOutput": "YES\n"
+      },
+      {
+        "input": "21\n",
+        "expectedOutput": "NO\n"
+      }
+    ]
+  },
+  {
+    "id": "Q06",
+    "title": "Fibonacci Series",
+    "topic": "Loops",
+    "difficulty": "Hard",
+    "statement": "Given n, print the first n Fibonacci numbers starting with 0 and 1, separated by spaces. Print an empty line when n is 0.",
+    "requiredSkillVector": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "7\n",
+    "sampleOutput": "0 1 1 2 3 5 8\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 8,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "1\n",
+        "expectedOutput": "0\n"
+      },
+      {
+        "input": "2\n",
+        "expectedOutput": "0 1\n"
+      },
+      {
+        "input": "7\n",
+        "expectedOutput": "0 1 1 2 3 5 8\n"
+      },
+      {
+        "input": "0\n",
+        "expectedOutput": "\n"
+      }
+    ]
+  },
+  {
+    "id": "Q07",
+    "title": "GCD of Two Numbers",
+    "topic": "Loops",
+    "difficulty": "Easy",
+    "statement": "Given two non-negative integers a and b, print their greatest common divisor.",
+    "requiredSkillVector": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "18 24\n",
+    "sampleOutput": "6\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 5,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "18 24\n",
+        "expectedOutput": "6\n"
+      },
+      {
+        "input": "7 13\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "0 9\n",
+        "expectedOutput": "9\n"
+      }
+    ]
+  },
+  {
+    "id": "Q08",
+    "title": "Right Triangle Pattern",
+    "topic": "Loops",
+    "difficulty": "Medium",
+    "statement": "Given n, print a left-aligned right triangle of stars with n rows. Row i contains i stars separated by single spaces.",
+    "requiredSkillVector": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "4\n",
+    "sampleOutput": "*\n* *\n* * *\n* * * *\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 6,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "1\n",
+        "expectedOutput": "*\n"
+      },
+      {
+        "input": "3\n",
+        "expectedOutput": "*\n* *\n* * *\n"
+      }
+    ]
+  },
+  {
+    "id": "Q09",
+    "title": "Find Maximum Element",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "statement": "Given n followed by n integers, print the largest element.",
+    "requiredSkillVector": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n3 9 2 7 4\n",
+    "sampleOutput": "9\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 5,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "1\n-4\n",
+        "expectedOutput": "-4\n"
+      },
+      {
+        "input": "5\n3 9 2 7 4\n",
+        "expectedOutput": "9\n"
+      },
+      {
+        "input": "4\n-8 -2 -9 -3\n",
+        "expectedOutput": "-2\n"
+      }
+    ]
+  },
+  {
+    "id": "Q10",
+    "title": "Linear Search",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "statement": "Given n, an array of n integers, and a target x, print the 0-based index of its first occurrence. Print -1 if it is absent.",
+    "requiredSkillVector": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n4 8 2 8 9\n8\n",
+    "sampleOutput": "1\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 6,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n4 8 2 8 9\n8\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "3\n1 2 3\n7\n",
+        "expectedOutput": "-1\n"
+      },
+      {
+        "input": "1\n5\n5\n",
+        "expectedOutput": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "Q11",
+    "title": "Second Largest Distinct Element",
+    "topic": "Arrays",
+    "difficulty": "Hard",
+    "statement": "Given n integers, print the second largest distinct value. If it does not exist, print -1.",
+    "requiredSkillVector": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n4 1 7 7 3\n",
+    "sampleOutput": "4\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 8,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n4 1 7 7 3\n",
+        "expectedOutput": "4\n"
+      },
+      {
+        "input": "4\n9 9 9 9\n",
+        "expectedOutput": "-1\n"
+      },
+      {
+        "input": "3\n-5 -2 -9\n",
+        "expectedOutput": "-5\n"
+      }
+    ]
+  },
+  {
+    "id": "Q12",
+    "title": "Reverse an Array",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "statement": "Given n and n integers, print the elements in reverse order separated by spaces.",
+    "requiredSkillVector": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n1 2 3 4 5\n",
+    "sampleOutput": "5 4 3 2 1\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 5,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "1\n9\n",
+        "expectedOutput": "9\n"
+      },
+      {
+        "input": "5\n1 2 3 4 5\n",
+        "expectedOutput": "5 4 3 2 1\n"
+      },
+      {
+        "input": "4\n-1 0 2 8\n",
+        "expectedOutput": "8 2 0 -1\n"
+      }
+    ]
+  },
+  {
+    "id": "Q13",
+    "title": "Count Even and Odd",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "statement": "Given n and n integers, print the count of even numbers followed by the count of odd numbers.",
+    "requiredSkillVector": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n1 2 3 4 6\n",
+    "sampleOutput": "3 2\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 6,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n1 2 3 4 6\n",
+        "expectedOutput": "3 2\n"
+      },
+      {
+        "input": "3\n-2 0 7\n",
+        "expectedOutput": "2 1\n"
+      },
+      {
+        "input": "1\n5\n",
+        "expectedOutput": "0 1\n"
+      }
+    ]
+  },
+  {
+    "id": "Q14",
+    "title": "Array Sum",
+    "topic": "Arrays",
+    "difficulty": "Hard",
+    "statement": "Given n and n integers, print their sum.",
+    "requiredSkillVector": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "4\n10 -2 3 5\n",
+    "sampleOutput": "16\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "1\n8\n",
+        "expectedOutput": "8\n"
+      },
+      {
+        "input": "4\n10 -2 3 5\n",
+        "expectedOutput": "16\n"
+      },
+      {
+        "input": "3\n-5 -5 2\n",
+        "expectedOutput": "-8\n"
+      }
+    ]
+  },
+  {
+    "id": "Q15",
+    "title": "Remove Duplicates",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "statement": "Given n and n integers, print each distinct value once, preserving its first-appearance order.",
+    "requiredSkillVector": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "7\n1 2 1 3 2 4 4\n",
+    "sampleOutput": "1 2 3 4\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 5,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "7\n1 2 1 3 2 4 4\n",
+        "expectedOutput": "1 2 3 4\n"
+      },
+      {
+        "input": "4\n5 5 5 5\n",
+        "expectedOutput": "5\n"
+      },
+      {
+        "input": "5\n1 2 3 4 5\n",
+        "expectedOutput": "1 2 3 4 5\n"
+      }
+    ]
+  },
+  {
+    "id": "Q16",
+    "title": "Rotate Array Right",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "statement": "Given n, an array of n integers, and k, rotate the array right by k positions.",
+    "requiredSkillVector": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n1 2 3 4 5\n2\n",
+    "sampleOutput": "4 5 1 2 3\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n1 2 3 4 5\n2\n",
+        "expectedOutput": "4 5 1 2 3\n"
+      },
+      {
+        "input": "3\n7 8 9\n0\n",
+        "expectedOutput": "7 8 9\n"
+      },
+      {
+        "input": "4\n1 2 3 4\n6\n",
+        "expectedOutput": "3 4 1 2\n"
+      }
+    ]
+  },
+  {
+    "id": "Q17",
+    "title": "Recursive Factorial",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "statement": "Given n, calculate n! using a recursive function.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n",
+    "sampleOutput": "120\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 6,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "0\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "1\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "5\n",
+        "expectedOutput": "120\n"
+      },
+      {
+        "input": "7\n",
+        "expectedOutput": "5040\n"
+      }
+    ]
+  },
+  {
+    "id": "Q18",
+    "title": "Recursive Sum",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "statement": "Given n, calculate the sum of integers from 1 through n using recursion.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n",
+    "sampleOutput": "15\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "1\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "5\n",
+        "expectedOutput": "15\n"
+      },
+      {
+        "input": "10\n",
+        "expectedOutput": "55\n"
+      }
+    ]
+  },
+  {
+    "id": "Q19",
+    "title": "Nth Fibonacci Number",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "statement": "Given n, print the nth Fibonacci number using the definition F(0)=0, F(1)=1.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "7\n",
+    "sampleOutput": "13\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 8,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "0\n",
+        "expectedOutput": "0\n"
+      },
+      {
+        "input": "1\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "7\n",
+        "expectedOutput": "13\n"
+      },
+      {
+        "input": "10\n",
+        "expectedOutput": "55\n"
+      }
+    ]
+  },
+  {
+    "id": "Q20",
+    "title": "Sum of Digits Recursively",
+    "topic": "Recursion",
+    "difficulty": "Easy",
+    "statement": "Given a non-negative integer n, print the sum of its digits using recursion.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "583\n",
+    "sampleOutput": "16\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 6,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "0\n",
+        "expectedOutput": "0\n"
+      },
+      {
+        "input": "9\n",
+        "expectedOutput": "9\n"
+      },
+      {
+        "input": "583\n",
+        "expectedOutput": "16\n"
+      },
+      {
+        "input": "1002\n",
+        "expectedOutput": "3\n"
+      }
+    ]
+  },
+  {
+    "id": "Q21",
+    "title": "Power Using Recursion",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "statement": "Given integers a and non-negative b, print a raised to the power b using recursion.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "2 5\n",
+    "sampleOutput": "32\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "2 0\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "2 5\n",
+        "expectedOutput": "32\n"
+      },
+      {
+        "input": "-3 3\n",
+        "expectedOutput": "-27\n"
+      }
+    ]
+  },
+  {
+    "id": "Q22",
+    "title": "Reverse a String Recursively",
+    "topic": "Recursion",
+    "difficulty": "Hard",
+    "statement": "Read one line of text and print it in reverse order using recursion.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "hello\n",
+    "sampleOutput": "olleh\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 8,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "hello\n",
+        "expectedOutput": "olleh\n"
+      },
+      {
+        "input": "a\n",
+        "expectedOutput": "a\n"
+      },
+      {
+        "input": "programming\n",
+        "expectedOutput": "gnimmargorp\n"
+      }
+    ]
+  },
+  {
+    "id": "Q23",
+    "title": "Bubble Sort",
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "statement": "Given n and n integers, sort them in ascending order using bubble sort and print the result.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n5 1 4 2 8\n",
+    "sampleOutput": "1 2 4 5 8\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 6,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n5 1 4 2 8\n",
+        "expectedOutput": "1 2 4 5 8\n"
+      },
+      {
+        "input": "4\n-1 3 0 -2\n",
+        "expectedOutput": "-2 -1 0 3\n"
+      },
+      {
+        "input": "1\n7\n",
+        "expectedOutput": "7\n"
+      }
+    ]
+  },
+  {
+    "id": "Q24",
+    "title": "Selection Sort",
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "statement": "Given n and n integers, sort them in ascending order using selection sort and print the result.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n64 25 12 22 11\n",
+    "sampleOutput": "11 12 22 25 64\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n64 25 12 22 11\n",
+        "expectedOutput": "11 12 22 25 64\n"
+      },
+      {
+        "input": "4\n4 3 2 1\n",
+        "expectedOutput": "1 2 3 4\n"
+      },
+      {
+        "input": "3\n2 2 1\n",
+        "expectedOutput": "1 2 2\n"
+      }
+    ]
+  },
+  {
+    "id": "Q25",
+    "title": "Insertion Sort",
+    "topic": "Sorting",
+    "difficulty": "Hard",
+    "statement": "Given n and n integers, sort them in ascending order using insertion sort and print the result.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n12 11 13 5 6\n",
+    "sampleOutput": "5 6 11 12 13\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 8,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n12 11 13 5 6\n",
+        "expectedOutput": "5 6 11 12 13\n"
+      },
+      {
+        "input": "4\n1 2 3 4\n",
+        "expectedOutput": "1 2 3 4\n"
+      },
+      {
+        "input": "4\n-1 5 0 -3\n",
+        "expectedOutput": "-3 -1 0 5\n"
+      }
+    ]
+  },
+  {
+    "id": "Q26",
+    "title": "Sort in Descending Order",
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "statement": "Given n and n integers, print them sorted in descending order.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n3 1 4 1 5\n",
+    "sampleOutput": "5 4 3 1 1\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 5,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n3 1 4 1 5\n",
+        "expectedOutput": "5 4 3 1 1\n"
+      },
+      {
+        "input": "3\n-1 -5 2\n",
+        "expectedOutput": "2 -1 -5\n"
+      },
+      {
+        "input": "1\n8\n",
+        "expectedOutput": "8\n"
+      }
+    ]
+  },
+  {
+    "id": "Q27",
+    "title": "Merge Two Sorted Arrays",
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "statement": "Given n, a sorted array of n integers, m, and a sorted array of m integers, merge them into one sorted sequence.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "3\n1 4 7\n3\n2 3 8\n",
+    "sampleOutput": "1 2 3 4 7 8\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "3\n1 4 7\n3\n2 3 8\n",
+        "expectedOutput": "1 2 3 4 7 8\n"
+      },
+      {
+        "input": "2\n1 2\n0\n\n",
+        "expectedOutput": "1 2\n"
+      },
+      {
+        "input": "2\n-3 5\n3\n-2 0 8\n",
+        "expectedOutput": "-3 -2 0 5 8\n"
+      }
+    ]
+  },
+  {
+    "id": "Q28",
+    "title": "Kth Smallest Element",
+    "topic": "Sorting",
+    "difficulty": "Hard",
+    "statement": "Given n, n integers and k (1-based), print the kth smallest element.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n7 10 4 3 20\n3\n",
+    "sampleOutput": "7\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 8,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n7 10 4 3 20\n3\n",
+        "expectedOutput": "7\n"
+      },
+      {
+        "input": "4\n4 1 2 3\n1\n",
+        "expectedOutput": "1\n"
+      },
+      {
+        "input": "3\n9 8 7\n3\n",
+        "expectedOutput": "9\n"
+      }
+    ]
+  },
+  {
+    "id": "Q29",
+    "title": "Count Inversions",
+    "topic": "Sorting",
+    "difficulty": "Medium",
+    "statement": "An inversion is a pair (i,j) where i<j and a[i]>a[j]. Given n and n integers, print the number of inversions.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "5\n2 4 1 3 5\n",
+    "sampleOutput": "3\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 7,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "5\n2 4 1 3 5\n",
+        "expectedOutput": "3\n"
+      },
+      {
+        "input": "3\n3 2 1\n",
+        "expectedOutput": "3\n"
+      },
+      {
+        "input": "4\n1 2 3 4\n",
+        "expectedOutput": "0\n"
+      }
+    ]
+  },
+  {
+    "id": "Q30",
+    "title": "Sort 0s, 1s and 2s",
+    "topic": "Sorting",
+    "difficulty": "Hard",
+    "statement": "Given n and an array containing only 0, 1 and 2, sort it in ascending order and print the result.",
+    "requiredSkillVector": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "maxMarks": 100,
+    "inputFormat": "Input is provided through standard input.",
+    "outputFormat": "Print the required result to standard output.",
+    "sampleInput": "6\n2 0 2 1 1 0\n",
+    "sampleOutput": "0 0 1 1 2 2\n",
+    "constraints": "Read input from standard input and print only the required output.",
+    "estimatedMinutes": 8,
+    "languageSupport": [
+      "Python"
+    ],
+    "testCases": [
+      {
+        "input": "6\n2 0 2 1 1 0\n",
+        "expectedOutput": "0 0 1 1 2 2\n"
+      },
+      {
+        "input": "5\n2 2 2 0 0\n",
+        "expectedOutput": "0 0 2 2 2\n"
+      },
+      {
+        "input": "4\n1 0 2 1\n",
+        "expectedOutput": "0 1 1 2\n"
+      }
+    ]
+  }
+]

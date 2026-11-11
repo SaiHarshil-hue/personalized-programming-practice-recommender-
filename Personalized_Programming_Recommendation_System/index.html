@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A student practice prototype that uses performance scoring, skill vectors and cosine similarity to recommend programming questions.">
+  <title>SkillPath | Personalised Programming Practice</title>
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><img src="assets/logo.svg" alt=""> SkillPath</div>
+      <p class="muted">PERSONALISED LEARNING</p>
+      <nav aria-label="Main navigation">
+        <button data-page="home" class="active">Overview</button>
+        <button data-page="practice">Practice</button>
+        <button data-page="recommend">Recommendations</button>
+        <button data-page="history">History</button>
+      </nav>
+      <div class="sidefoot">Team 3 · Mathematics for Computing–I<br>22MAT110</div>
+    </aside>
+
+    <main>
+      <header>
+        <div>
+          <p class="muted">PERSONALISED PROGRAMMING PRACTICE</p>
+          <h1 id="greeting">Welcome to SkillPath</h1>
+          <p id="questionCount" class="small">Loading question bank…</p>
+        </div>
+        <button id="themeBtn" class="secondary">Toggle theme</button>
+      </header>
+
+      <div id="startupError" class="notice error hidden" role="alert"></div>
+
+      <section id="login" class="panel loginPanel">
+        <h2>Start your learning session</h2>
+        <p>Practise programming questions and receive recommendations based on your performance.</p>
+        <div class="loginFields">
+          <input id="studentName" placeholder="Student name" autocomplete="name" aria-label="Student name">
+          <input id="studentId" placeholder="Student ID (optional)" aria-label="Student ID (optional)">
+          <button id="startBtn">Start practice</button>
+        </div>
+        <small>Use the same student ID next time to restore your browser-saved progress. Your data stays in this browser.</small>
+      </section>
+
+      <section id="home" class="page hidden">
+        <div class="cards" id="stats"></div>
+        <div class="panel">
+          <div class="sectionHeading"><div><h2>Topic skill analysis</h2><p class="small">Skill score = mean performance score for that concept, divided by 100.</p></div></div>
+          <div id="skills"></div>
+          <p id="dashboardNote" class="notice"></p>
+        </div>
+      </section>
+
+      <section id="practice" class="page hidden">
+        <div class="practiceToolbar panel">
+          <label for="questionPicker">Question bank</label>
+          <select id="questionPicker"></select>
+        </div>
+        <div class="practiceGrid">
+          <article class="panel">
+            <div class="row between"><span id="qTopic" class="pill">Topic</span><span id="qDiff" class="pill">Easy</span></div>
+            <h2 id="qTitle">Choose a question</h2>
+            <p id="qStatement"></p>
+            <h3>Sample input / output</h3>
+            <pre id="sample"></pre>
+            <p id="constraints" class="small"></p>
+            <div class="row between questionNav"><button id="prevQ" class="secondary">Previous</button><button id="nextQ" class="secondary">Next</button></div>
+          </article>
+          <article class="panel editor">
+            <div class="row between"><strong>Python code editor</strong><span id="timer" class="timer">00:00</span></div>
+            <div class="editorActions"><button id="runBtn" class="secondary">Run with custom input</button><button id="submitBtn">Submit & evaluate</button></div>
+            <textarea id="code" spellcheck="false" aria-label="Python code editor"># Write your Python solution here</textarea>
+            <label for="customInput">Custom input</label>
+            <textarea id="customInput" class="inputArea" rows="3" aria-label="Custom input"></textarea>
+            <h3>Console output</h3>
+            <pre id="output">Ready.</pre>
+            <div id="submissionResult" class="submissionResult" aria-live="polite"></div>
+          </article>
+        </div>
+        <p class="small runtimeNote">Python runs in your browser through Pyodide. An internet connection is required to load the runtime the first time. Submit runs the question bank's visible test cases; this is an educational prototype, not a secure production judge.</p>
+      </section>
+
+      <section id="recommend" class="page hidden">
+        <div class="panel">
+          <h2>Recommended next questions</h2>
+          <p id="recommendationIntro" class="small"></p>
+          <div id="recommendations"></div>
+        </div>
+      </section>
+
+      <section id="history" class="page hidden">
+        <div class="panel">
+          <h2>Practice history</h2>
+          <p class="small">Each record includes test-case correctness, elapsed time and the calculated performance score.</p>
+          <div id="historyList"></div>
+          <button id="exportBtn" class="secondary">Export student data (JSON)</button>
+        </div>
+      </section>
+
+      <footer>SkillPath · Team 3 · Mathematics for Computing–I · 22MAT110</footer>
+    </main>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
